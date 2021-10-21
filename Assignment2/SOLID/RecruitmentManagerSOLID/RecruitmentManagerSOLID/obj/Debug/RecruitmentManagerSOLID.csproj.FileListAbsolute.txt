@@ -1,0 +1,7 @@
+C:\Users\rober\source\repos\RecruitmentManagerSOLID\RecruitmentManagerSOLID\bin\Debug\RecruitmentManagerSOLID.exe.config
+C:\Users\rober\source\repos\RecruitmentManagerSOLID\RecruitmentManagerSOLID\bin\Debug\RecruitmentManagerSOLID.exe
+C:\Users\rober\source\repos\RecruitmentManagerSOLID\RecruitmentManagerSOLID\bin\Debug\RecruitmentManagerSOLID.pdb
+C:\Users\rober\source\repos\RecruitmentManagerSOLID\RecruitmentManagerSOLID\obj\Debug\RecruitmentManagerSOLID.csproj.CoreCompileInputs.cache
+C:\Users\rober\source\repos\RecruitmentManagerSOLID\RecruitmentManagerSOLID\obj\Debug\RecruitmentManagerSOLID.exe
+C:\Users\rober\source\repos\RecruitmentManagerSOLID\RecruitmentManagerSOLID\obj\Debug\RecruitmentManagerSOLID.pdb
+C:\Users\rober\source\repos\RecruitmentManagerSOLID\RecruitmentManagerSOLID\obj\Debug\RecruitmentManagerSOLID.csproj.AssemblyReference.cache

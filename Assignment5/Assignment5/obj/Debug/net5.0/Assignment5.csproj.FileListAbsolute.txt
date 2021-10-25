@@ -1,0 +1,16 @@
+C:\Users\rober\source\repos\Assignment5\Assignment5\obj\Debug\net5.0\Assignment5.csproj.AssemblyReference.cache
+C:\Users\rober\source\repos\Assignment5\Assignment5\obj\Debug\net5.0\Assignment5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\source\repos\Assignment5\Assignment5\obj\Debug\net5.0\Assignment5.AssemblyInfoInputs.cache
+C:\Users\rober\source\repos\Assignment5\Assignment5\obj\Debug\net5.0\Assignment5.AssemblyInfo.cs
+C:\Users\rober\source\repos\Assignment5\Assignment5\obj\Debug\net5.0\Assignment5.csproj.CoreCompileInputs.cache
+C:\Users\rober\source\repos\Assignment5\Assignment5\bin\Debug\net5.0\Assignment5.exe
+C:\Users\rober\source\repos\Assignment5\Assignment5\bin\Debug\net5.0\Assignment5.deps.json
+C:\Users\rober\source\repos\Assignment5\Assignment5\bin\Debug\net5.0\Assignment5.runtimeconfig.json
+C:\Users\rober\source\repos\Assignment5\Assignment5\bin\Debug\net5.0\Assignment5.runtimeconfig.dev.json
+C:\Users\rober\source\repos\Assignment5\Assignment5\bin\Debug\net5.0\Assignment5.dll
+C:\Users\rober\source\repos\Assignment5\Assignment5\bin\Debug\net5.0\ref\Assignment5.dll
+C:\Users\rober\source\repos\Assignment5\Assignment5\bin\Debug\net5.0\Assignment5.pdb
+C:\Users\rober\source\repos\Assignment5\Assignment5\obj\Debug\net5.0\Assignment5.dll
+C:\Users\rober\source\repos\Assignment5\Assignment5\obj\Debug\net5.0\ref\Assignment5.dll
+C:\Users\rober\source\repos\Assignment5\Assignment5\obj\Debug\net5.0\Assignment5.pdb
+C:\Users\rober\source\repos\Assignment5\Assignment5\obj\Debug\net5.0\Assignment5.genruntimeconfig.cache

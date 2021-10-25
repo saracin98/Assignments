@@ -14,7 +14,7 @@ namespace Assignment5.exceptions
         }
         public void AlreadyUsedMessage(string username)
         {
-            Console.WriteLine($"Username {username} already exists!");           
+            Console.WriteLine($"Username '{username}' already exists!");           
         }
     }
 }

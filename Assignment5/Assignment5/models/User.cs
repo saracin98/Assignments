@@ -23,6 +23,9 @@ namespace Assignment5.models
                 if (username == null)
                 {
                     throw new InvalidCredentialsException();
+                }else if (password.Length < 6)
+                {
+                    throw new ToShortException();
                 }
                 UserRepository.Accounts.ForEach(u =>
                 {
@@ -36,6 +39,11 @@ namespace Assignment5.models
             {
                 UserRepository.Log(ex);
                 ex.AlreadyUsedMessage(username);
+            }
+            catch (ToShortException ex)
+            {
+                UserRepository.Log(ex);
+                ex.ToShortMessage(password);
             }
             catch (InvalidCredentialsException ex)
             {

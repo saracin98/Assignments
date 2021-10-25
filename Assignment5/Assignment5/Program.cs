@@ -8,12 +8,14 @@ namespace Assignment5
     {
         static void Main(string[] args)
         {
-            Debug.WriteLine("asd");
+            Debug.WriteLine("Debugger start");
             UserRepository.AddUser(new User(1,"user", "pass"));
-            UserRepository.AddUser(new User(2,"user", "pass"));
+            UserRepository.AddUser(new User(2,"user", "password"));
             UserRepository.AddUser(new User(3, null, "pass"));
 
             UserRepository.ErrorsLog.ForEach(e => Console.WriteLine(e.StackTrace));
+
+            Debug.WriteLine("Debugger end");
         }
     }
 }

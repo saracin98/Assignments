@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rober\\source\\repos\\Assignment5\\Assignment5\\Assignment5.csproj": {}
+    "C:\\Users\\rober\\OneDrive\\Desktop\\Amdaris\\Assignments\\Assignment5\\Assignment5\\Assignment5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rober\\source\\repos\\Assignment5\\Assignment5\\Assignment5.csproj": {
+    "C:\\Users\\rober\\OneDrive\\Desktop\\Amdaris\\Assignments\\Assignment5\\Assignment5\\Assignment5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rober\\source\\repos\\Assignment5\\Assignment5\\Assignment5.csproj",
+        "projectUniqueName": "C:\\Users\\rober\\OneDrive\\Desktop\\Amdaris\\Assignments\\Assignment5\\Assignment5\\Assignment5.csproj",
         "projectName": "Assignment5",
-        "projectPath": "C:\\Users\\rober\\source\\repos\\Assignment5\\Assignment5\\Assignment5.csproj",
+        "projectPath": "C:\\Users\\rober\\OneDrive\\Desktop\\Amdaris\\Assignments\\Assignment5\\Assignment5\\Assignment5.csproj",
         "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rober\\source\\repos\\Assignment5\\Assignment5\\obj\\",
+        "outputPath": "C:\\Users\\rober\\OneDrive\\Desktop\\Amdaris\\Assignments\\Assignment5\\Assignment5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",

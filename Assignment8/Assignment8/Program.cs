@@ -11,14 +11,25 @@ namespace Assignment8
             DirectoryInfo downolads = new DirectoryInfo(@"C:\Users\rober\Downloads");
 
             FileInfo[] files = downolads.GetFiles();
-            var filtered = files.OrderBy(x=>x.CreationTime).GroupBy(x => x.CreationTime.ToString("dd-MM-yyyy"));
+            DirectoryInfo[] directories = downolads.GetDirectories();
+            var filteredFiles = files.OrderBy(x=>x.CreationTime).GroupBy(x => x.CreationTime.ToString("dd-MM-yyyy"));
+            var filteredDirectories = directories.OrderBy(x => x.CreationTime).GroupBy(x => x.CreationTime.ToString("dd-MM-yyyy"));
 
-            foreach (var group in filtered) 
+            foreach (var group in filteredFiles) 
             {
                 foreach (var f in group)
                 {
-                    var newDir = Directory.CreateDirectory(@"C:\Users\rober\Documents\Downloads\"+ f.CreationTime.ToString("dd-MM-yyyy"));
+                    var newDir = Directory.CreateDirectory(@"C:\Users\rober\Documents\Downloads\"+ group.Key);
                     f.MoveTo(newDir.FullName + @"\" +f.Name);
+                }
+            }
+
+            foreach (var group in filteredDirectories)
+            {
+                foreach (var d in group)
+                {
+                    var newDir = Directory.CreateDirectory(@"C:\Users\rober\Documents\Downloads\" + group.Key);
+                    d.MoveTo(newDir.FullName + @"\" + d.Name);
                 }
             }
         }

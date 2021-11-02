@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment11.Composite
 {
-    class Employee : IPerson
+    public class Employee : IEntity
     {
         private string Name;
         private string Email;
@@ -17,7 +17,7 @@ namespace Assignment11.Composite
             Email = email;
         }
 
-        public void DisplayPersonDetails()
+        public void DisplayEntityDetails()
         {
             Console.WriteLine($"Name: {Name},\nEmail:{Email}\n");
         }

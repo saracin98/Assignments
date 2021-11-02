@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace Assignment11.Composite
 {
-    class Company : IPerson
+    class Company : IEntity
     {
-        private List<IPerson> Persons;
+        private List<IEntity> Persons;
 
         public Company()
         {
-            Persons = new List<IPerson>();
+            Persons = new List<IEntity>();
         }
 
-        public void AddPerson(IPerson person)
+        public void AddPerson(IEntity person)
         {
             Persons.Add(person);
         }
 
-        public void DisplayPersonDetails()
+        public void DisplayEntityDetails()
         {
-            Persons.ForEach(p => p.DisplayPersonDetails());
+            Persons.ForEach(p => p.DisplayEntityDetails());
         }
     }
 }

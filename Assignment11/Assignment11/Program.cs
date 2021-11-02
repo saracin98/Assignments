@@ -17,15 +17,13 @@ namespace Assignment11
 
             //Composite
             Company company = new Company();
-            IPerson candidate1 = new Candidate("Bob", "bob@gmail.com", "Rejected");
-            IPerson candidate2 = new Candidate("Andrew", "andrew@gmail.com", "Hired");
-            IPerson employee = new Employee("user1", "user@gmial.com");
 
-            company.AddPerson(candidate1);
-            company.AddPerson(candidate2);
-            company.AddPerson(employee);
+            company.AddPerson(new Candidate("Bob", "bob@gmail.com", "Rejected"));
+            company.AddPerson(new Candidate("Andrew", "andrew@gmail.com", "Hired"));
+            company.AddPerson(new Composite.User("user1", "user@gmial.com"));
+            company.AddPerson(new Admin("admin", "admin@gmial.com"));
 
-            company.DisplayPersonDetails();
+            company.DisplayEntityDetails();
         }
     }
 }

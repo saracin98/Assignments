@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Assignment11.Composite
 {
-    interface IPerson
+    interface IEntity
     {
-        public void DisplayPersonDetails();
+        public void DisplayEntityDetails();
     }
 }

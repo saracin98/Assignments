@@ -1,0 +1,7 @@
+CREATE TABLE [TestDB].[dbo].[Companies]
+(
+[Id]  BiGINT  NOT NULL,
+[Name] VARCHAR(100) NOT NULL,
+[Description] VARCHAR(100) NOT NULL,
+CONSTRAINT [PK_Companies] PRIMARY KEY CLUSTERED ([Id])
+)

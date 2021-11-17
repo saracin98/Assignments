@@ -1,0 +1,1 @@
+DELETE Users where Username = 'admin'
